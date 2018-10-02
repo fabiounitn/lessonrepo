@@ -18,4 +18,3 @@ const getLocation = async url => {
 
 getLocation(url);
 
-console.log('\n\n after get url')
