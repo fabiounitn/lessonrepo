@@ -1,7 +1,9 @@
 const fetch = require("node-fetch");
 
 //const url = "https://maps.googleapis.com/maps/api/geocode/json?address=Florence"
-const url = "https://api.sunrise-sunset.org/json?lat=36.7201600&lng=-4.4203400"
+//const url = "https://api.sunrise-sunset.org/json?lat=36.7201600&lng=-4.4203400"
+
+const url = "http://localhost:3000/courses"
 
 const getLocation = async url => {
 
